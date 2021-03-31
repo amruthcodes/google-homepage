@@ -1,0 +1,22 @@
+
+/* Simple css reset */
+
+/* * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 14px;
+} */
+
+
+li {
+  list-style-type: none; 
+  /* To remove the 'bullet point' - list item do not need any styling*/
+
+}
+
+a {
+  text-decoration: none;
+  /* list item do not need any underline */
+}
+
