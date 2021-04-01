@@ -10,11 +10,6 @@
 
 /*--------------------------------------------------------------------------*/
 
-nav {
-  width: 100vw; 
-  height: 30px;
-}
-
 li {
   
   list-style-type: none; 
@@ -39,12 +34,3 @@ ul {
 }
 
 
-
-/* ----------center the element------------ */
-
-/* section {
-  margin: 0 auto;
-  width: 50%;
-} */
-
-/* ----------center the element------------ */
