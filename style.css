@@ -4,33 +4,47 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* Simple css reset */
 
 /*--------------------------------------------------------------------------*/
 
-li {
-  
-  list-style-type: none; 
-  /* To remove the 'bullet point' - list item do not need any styling*/
-
-  margin: 0 5px;
-}
-
-a {
-  text-decoration: none;
-  /* list item do not need any underline */
-}
-
-ul {
+nav {
   display: flex;
-  /* To place the elements in a row */
-
+  justify-content: flex-end;
+  min-height: 8vh;
+  align-items: center;
+  padding: 8px;
 }
 
-#nav {
-  float: right;
+.nav_link {
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+  align-items: center;
 }
+
+.nav_link li {
+  list-style-type: none;
+}
+
+.nav_link li a {
+  text-decoration: none;
+  color: #222;
+}
+
+.btn {
+
+  border: none;
+  border-radius: 3px;
+  background-color: #1a73e8;
+  color: #fff;
+  padding: 9px 23px;
+  font-size: 14px;
+}
+
+
 
 
