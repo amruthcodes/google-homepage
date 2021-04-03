@@ -45,6 +45,20 @@ nav {
   font-size: 14px;
 }
 
+.search {
+  text-align: center;
+}
 
+.footer_menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 23px;
+  background-color: #F2F2F2;
+}
 
-
+.left_footer_menu a, .right_footer_menu a {
+  text-decoration: none;
+  color: #7A7A7A;
+  font-size: 13px;
+  padding: 1rem;
+}
