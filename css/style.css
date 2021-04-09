@@ -21,21 +21,23 @@ body {
 
 nav {
   display: flex;
-  justify-content: flex-end;
-  min-height: 8vh;
-  align-items: center;
-  padding: 8px;
+  padding: 6px;
+  font-size: 13px;
+  
+}
+
+.nav_container{ 
+  
 }
 
 .nav_link {
   display: flex;
-  justify-content: space-around;
-  width: 15%;
   align-items: center;
 }
 
 .nav_link li {
   list-style-type: none;
+  padding: 5px;
 }
 
 .nav_link li a {
@@ -57,20 +59,6 @@ nav {
   text-align: center;
 }
 
-.footer_menu {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  background-color: #F2F2F2;
-}
-
-.left_footer_menu a, .right_footer_menu a {
-  text-decoration: none;
-  color: #7A7A7A;
-  font-size: 13px;
-  padding: 1rem;
-}
-
 .logo {
   padding: 12.5em 0 2em 0;
 }
@@ -85,6 +73,26 @@ img {
 
 footer {
   margin-top: auto;
+  padding: 1.3rem;
+  background-color: #F2F2F2;
 }
 
+.footer_menu {
+ text-align: center;
+}
+
+.left_footer_menu a, .right_footer_menu a {
+  text-decoration: none;
+  color: #706f6f;
+  font-size: 14px;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.left_footer_menu a:hover, .right_footer_menu a:hover {
+  text-decoration: underline;
+}
+
+.right_footer_menu {
+  margin: 1.5em 0 0 0;
+}
 
