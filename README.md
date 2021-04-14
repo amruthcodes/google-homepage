@@ -1,2 +1,3 @@
-First Project by Theodinproject: 
-<a href="https://amruthuk.github.io/google-homepage/">Google Home Page<a>
+<p>Google Homepage UI using HTML & CSS</p>
+<br>
+<a href="https://amruthuk.github.io/google-homepage/">Live Preview<a>
